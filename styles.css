@@ -1,7 +1,34 @@
+body {
+    background-color: #FAFDC1;
+}
+
 h1 {
     font-family: Garamond, 'Times New Roman', Times, serif;
     text-decoration: overline underline;
     text-align: center;
+}
+
+.boxed {
+    display: flex;
+    margin: 10px;
+    align-self: center;
+}
+
+div {
+    margin: 2%;
+    padding: 2%;
+    outline: solid;
+    outline-width: 1px;
+    outline-color: royalblue;
+}
+
+#webContent {
+    flex-basis: 100%;
+}
+
+#navbar {
+    flex-basis: 10%;
+    background-color: white;
 }
 
 .centeredImage {
